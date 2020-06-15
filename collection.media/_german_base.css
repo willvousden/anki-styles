@@ -44,10 +44,6 @@ html, body {
     text-align: center;
 }
 
-.card.night_mode #body-upper {
-    background-color: #4f4f4f;
-}
-
 #body-lower {
     border-radius: 0 0 5px 5px;
     margin 0;
@@ -57,7 +53,11 @@ html, body {
     text-align: center;
 }
 
-.card.night_mode #body-lower {
+.card.night_mode .german {
+    background-color: #4f4f4f;
+}
+
+.card.night_mode .english {
     background-color: #3e3e3e;
 }
 
