@@ -1,0 +1,39 @@
+nom::after,
+akk::after,
+dat::after,
+gen::after {
+    vertical-align: super;
+    font-size: 0.75em;
+}
+
+.card.night_mode nom {
+    color: #61b6f2;
+}
+
+.term nom::after {
+    content: "nom.";
+}
+
+.card.night_mode akk {
+    color: #fecc66;
+}
+
+.term akk::after {
+    content: "akk.";
+}
+
+.card.night_mode dat {
+    color: #db7df0;
+}
+
+.term dat::after {
+    content: "dat.";
+}
+
+.card.night_mode gen {
+    color: #80d957;
+}
+
+.term gen::after {
+    content: "gen.";
+}

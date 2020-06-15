@@ -1,0 +1,93 @@
+html, body {
+    font-family: arial;
+    font-size: 20px;
+    color: #ddd;
+    margin: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0 2em;
+    position: absolute;
+    width: 100%;
+}
+
+.card.night_mode::after {
+    background: url("skulls.png");
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;   
+}
+
+.android .card.night_mode::after {
+    opacity: 0.6;
+}
+
+.android .card.night_mode {
+    background-color: #222;
+}
+
+#body-upper {
+    border-radius: 5px;
+    margin 0;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.card.night_mode #body-upper {
+    background-color: #56435b;
+}
+
+#body-lower {
+    border-radius: 0 0 5px 5px;
+    margin 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.card.night_mode #body-lower {
+    background-color: #43525b;
+}
+
+.card.night_mode .back,
+.card.night_mode #body-upper {
+    filter: drop-shadow(0 0 10px #222);
+}
+
+.back #body-upper {
+    border-radius: 5px 5px 0 0;
+    filter: none !important;
+}
+
+.back #body-lower {
+    opacity: 1;
+}
+
+.term {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.example {
+    color: #ccc;
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+
+.example:empty {
+    display: none;
+}
