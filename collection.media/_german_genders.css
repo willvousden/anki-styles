@@ -1,11 +1,26 @@
-.card.night_mode .noun.die {
-    color: #f07dc6;
+.night_mode #body-upper.noun.die,
+.night_mode #body-lower.noun.die {
+    background-color: #56435b !important;
 }
 
-.card.night_mode .noun.der {
-    color: #8a9bff;
+.night_mode #body-upper.noun.der,
+.night_mode #body-lower.noun.der {
+    background-color: #375267 !important;
 }
 
-.card.night_mode .noun.das {
+.night_mode #body-upper.noun.das,
+.night_mode #body-lower.noun.das {
+    background-color: #5e633b !important;
+}
+
+.night_mode .noun.die .term {
+    color: #db7ff0;
+}
+
+.night_mode .noun.der .term {
+    color: #61b6f2;
+}
+
+.night_mode .noun.das .term {
     color: #c8d468;
 }

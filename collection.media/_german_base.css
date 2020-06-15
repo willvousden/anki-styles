@@ -45,7 +45,7 @@ html, body {
 }
 
 .card.night_mode #body-upper {
-    background-color: #56435b;
+    background-color: #4f4f4f;
 }
 
 #body-lower {
@@ -58,7 +58,7 @@ html, body {
 }
 
 .card.night_mode #body-lower {
-    background-color: #43525b;
+    background-color: #3e3e3e;
 }
 
 .card.night_mode .back,
