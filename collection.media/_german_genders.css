@@ -13,14 +13,18 @@
     background-color: #5e633b !important;
 }
 
-.night_mode .noun.die .term {
+.night_mode .noun.die .term .noun {
     color: #db7ff0;
 }
 
-.night_mode .noun.der .term {
+.night_mode .noun.der .term .noun {
     color: #61b6f2;
 }
 
-.night_mode .noun.das .term {
+.night_mode .noun.das .term .noun {
     color: #c8d468;
+}
+
+.plural {
+    opacity: 0.3;
 }
