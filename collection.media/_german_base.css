@@ -1,7 +1,6 @@
 html, body {
     font-family: arial;
     font-size: 20px;
-    color: #ddd;
     margin: 0;
 }
 
@@ -14,6 +13,10 @@ html, body {
     padding: 0 2em;
     position: absolute;
     width: 100%;
+}
+
+.card.night_mode {
+    color: #ccc;
 }
 
 .card.night_mode::after {
@@ -76,6 +79,7 @@ html, body {
 }
 
 .term {
+    color: #eee;
     font-size: 1.5em;
     margin-bottom: 15px;
     margin: 0;
@@ -83,7 +87,6 @@ html, body {
 }
 
 .example {
-    color: #ccc;
     font-size: 0.75em;
     margin-bottom: 0;
 }
