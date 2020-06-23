@@ -28,7 +28,7 @@ html, body {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: -1;   
+    z-index: -1;
 }
 
 .android .card.night_mode::after {
@@ -93,4 +93,14 @@ html, body {
 
 .example:empty {
     display: none;
+}
+
+.english.colloquial .term::after {
+    content: " (coll.)";
+    opacity: 0.3;
+}
+
+.german.colloquial .term::after {
+    content: " (ugs.)";
+    opacity: 0.3;
 }
