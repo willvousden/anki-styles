@@ -69,6 +69,11 @@ html, body {
     filter: drop-shadow(0 0 10px #222);
 }
 
+.card.night_mode .back.vulgar,
+.card.night_mode #body-upper.vulgar {
+    filter: drop-shadow(0 0 10px #de4949);
+}
+
 .back #body-upper {
     border-radius: 5px 5px 0 0;
     filter: none !important;
@@ -76,6 +81,20 @@ html, body {
 
 .back #body-lower {
     opacity: 1;
+}
+
+#body-upper.vulgar {
+    border: 1px solid #de4949;
+}
+
+.back #body-upper.vulgar {
+    border-bottom-width: 0;
+}
+
+.back #body-lower.vulgar {
+    opacity: 1;
+    border: 1px solid #de4949;
+    border-top-width: 0;
 }
 
 .term {
