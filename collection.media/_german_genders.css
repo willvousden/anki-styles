@@ -1,3 +1,9 @@
+.night_mode #body-upper.noun.der.die,
+.night_mode #body-lower.noun.der.die {
+    background: #56435b;
+    background: linear-gradient(0deg, #56435b 0%, #375267 100%);
+}
+
 .night_mode #body-upper.noun.die,
 .night_mode #body-lower.noun.die {
     background-color: #56435b !important;
@@ -13,15 +19,15 @@
     background-color: #5e633b !important;
 }
 
-.night_mode .noun.die .term .noun {
+.night_mode .noun .term .noun.die {
     color: #db7ff0;
 }
 
-.night_mode .noun.der .term .noun {
+.night_mode .noun .term .noun.der {
     color: #61b6f2;
 }
 
-.night_mode .noun.das .term .noun {
+.night_mode .noun .term .noun.das {
     color: #c8d468;
 }
 
