@@ -125,3 +125,16 @@ html, body {
     content: " (ugs.)";
     opacity: 0.3;
 }
+
+.article {
+    text-align: right;
+    width: 2em;
+}
+
+.german .term .noun {
+    display: flex;
+}
+
+.term {
+    display: inline-block;
+}
