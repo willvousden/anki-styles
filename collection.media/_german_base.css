@@ -126,15 +126,15 @@ html, body {
     opacity: 0.3;
 }
 
-.article {
+.german.der.die .term {
+    display: inline-block;
+}
+
+.german.der.die .term .article {
     text-align: right;
     width: 2em;
 }
 
-.german .term .noun {
+.german.der.die .term .noun {
     display: flex;
-}
-
-.term {
-    display: inline-block;
 }
