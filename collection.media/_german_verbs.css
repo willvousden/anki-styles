@@ -1,0 +1,22 @@
+.past {
+    font-size: 0.75em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.past-participle, .simple-past {
+    display: inline-block;
+}
+
+.simple-past::after {
+    content: "•";
+    margin: 0 0.5em;
+    opacity: 0.4;
+}
+
+[participle^="ist "] {
+    color: #439c49;
+}
+.night_mode [participle^="ist "] {
+    color: #57b55d;
+}

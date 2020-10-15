@@ -6,6 +6,9 @@ gen::after {
     font-size: 0.75em;
 }
 
+.card nom {
+    color: #2441e3;
+}
 .card.night_mode nom {
     color: #61b6f2;
 }
@@ -14,6 +17,9 @@ gen::after {
     content: "nom.";
 }
 
+.card akk {
+    color: #e3ac17;
+}
 .card.night_mode akk {
     color: #fecc66;
 }
@@ -22,6 +28,9 @@ gen::after {
     content: "akk.";
 }
 
+.card dat {
+    color: #c439e3;
+}
 .card.night_mode dat {
     color: #db7df0;
 }
@@ -30,6 +39,9 @@ gen::after {
     content: "dat.";
 }
 
+.card gen {
+    color: #51ad26;
+}
 .card.night_mode gen {
     color: #80d957;
 }

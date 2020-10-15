@@ -15,28 +15,28 @@ html, body {
     width: 100%;
 }
 
+.card {
+    background-color: #ececec;
+    color: #555;
+}
 .card.night_mode {
+    background-color: #222;
     color: #ccc;
 }
 
-.card.night_mode::after {
+.card::after {
     background: url("skulls.png");
     bottom: 0;
     content: "";
     left: 0;
-    opacity: 0.3;
+    opacity: 0.7;
     position: absolute;
     right: 0;
     top: 0;
     z-index: -1;
 }
-
-.android .card.night_mode::after {
-    opacity: 0.6;
-}
-
-.android .card.night_mode {
-    background-color: #222;
+.card.night_mode::after {
+    opacity: 0.25;
 }
 
 #body-upper {
@@ -58,19 +58,33 @@ html, body {
     text-align: center;
 }
 
+.card .german {
+    background-color: #f5f5f5;
+}
 .card.night_mode .german {
     background-color: #4f4f4f;
 }
 
+.card .english {
+    background-color: #eee;
+}
 .card.night_mode .english {
     background-color: #3e3e3e;
 }
 
+.card .back,
+.card #body-upper {
+    filter: drop-shadow(0 0 10px #c4c4c4);
+}
 .card.night_mode .back,
 .card.night_mode #body-upper {
     filter: drop-shadow(0 0 10px #222);
 }
 
+.card .back.vulgar,
+.card #body-upper.vulgar {
+    filter: drop-shadow(0 0 10px #ff9782);
+}
 .card.night_mode .back.vulgar,
 .card.night_mode #body-upper.vulgar {
     filter: drop-shadow(0 0 10px #de4949);
@@ -85,26 +99,38 @@ html, body {
     opacity: 1;
 }
 
-#body-upper.vulgar {
-    border: 1px solid #de4949;
-}
-
 .back #body-upper.vulgar {
     border-bottom-width: 0;
 }
 
-.back #body-lower.vulgar {
-    opacity: 1;
+#body-upper.vulgar {
+    border: 1px solid #ff9782;
+}
+.card.night_mode #body-upper.vulgar {
     border: 1px solid #de4949;
+}
+
+.card .back #body-lower.vulgar {
+    opacity: 1;
+    border: 1px solid #ff9782;
     border-top-width: 0;
+}
+.card.night_mode .back #body-lower.vulgar {
+    border: 1px solid #de4949;
 }
 
 .term {
-    color: #eee;
     font-size: 1.5em;
     margin-bottom: 15px;
     margin: 0;
     padding: 0;
+}
+
+.term {
+    color: #333;
+}
+.night_mode .term {
+    color: #eee;
 }
 
 .example {

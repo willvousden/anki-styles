@@ -1,32 +1,58 @@
+#body-upper.noun.der.die,
+#body-lower.noun.der.die {
+    background: #f0c9e1;
+    background: linear-gradient(0deg, #f0c9e1 0%, #c4deff 100%);
+}
 .night_mode #body-upper.noun.der.die,
 .night_mode #body-lower.noun.der.die {
     background: #56435b;
     background: linear-gradient(0deg, #56435b 0%, #375267 100%);
 }
 
+#body-upper.noun.die,
+#body-lower.noun.die {
+    background-color: #ffdbf1 !important;
+}
 .night_mode #body-upper.noun.die,
 .night_mode #body-lower.noun.die {
     background-color: #56435b !important;
 }
 
+#body-upper.noun.der,
+#body-lower.noun.der {
+    background-color: #cce2ff !important;
+}
 .night_mode #body-upper.noun.der,
 .night_mode #body-lower.noun.der {
     background-color: #375267 !important;
 }
 
+#body-upper.noun.das,
+#body-lower.noun.das {
+    background-color: #edffb5 !important;
+}
 .night_mode #body-upper.noun.das,
 .night_mode #body-lower.noun.das {
     background-color: #5e633b !important;
 }
 
+.noun .term .noun.die {
+    color: #db5cac;
+}
 .night_mode .noun .term .noun.die {
     color: #db7ff0;
 }
 
+.noun .term .noun.der {
+    color: #3982e3;
+}
 .night_mode .noun .term .noun.der {
     color: #61b6f2;
 }
 
+.noun .term .noun.das {
+    color: #92ad3e;
+}
 .night_mode .noun .term .noun.das {
     color: #c8d468;
 }
