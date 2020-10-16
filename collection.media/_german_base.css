@@ -74,11 +74,11 @@ html, body {
 
 .card .back,
 .card #body-upper {
-    filter: drop-shadow(0 0 10px #c4c4c4);
+    filter: drop-shadow(0 0 20px #ccc);
 }
 .card.night_mode .back,
 .card.night_mode #body-upper {
-    filter: drop-shadow(0 0 10px #222);
+    filter: drop-shadow(0 0 20px #171717);
 }
 
 .card .back.vulgar,
