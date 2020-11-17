@@ -152,6 +152,10 @@ html, body {
     opacity: 0.3;
 }
 
+.german optional {
+    opacity: 0.3;
+}
+
 .german.der.die .term {
     display: inline-block;
 }
